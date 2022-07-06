@@ -21,6 +21,8 @@ Here is a brief description about the folder content:
 
 * [`FeatureExtraction`](./FeatureExtraction): code to perform feature extraction
 
+* [`example`](./example): example dataset to perform fine-tuning or feature extraction
+
 ## Developer Team
 
 The code was developed by Vishu Gupta from the <a href="http://cucis.ece.northwestern.edu/">CUCIS</a> group at the Electrical and Computer Engineering Department at Northwestern University.
