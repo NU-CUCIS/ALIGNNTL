@@ -7,8 +7,6 @@ This repository contains the code for ALIGNN-based transfer learning framework t
 * Use a pre-trained ALIGNN model to perform feature extraction on a given target dataset.
 * Predict material properties of new compounds with a pre-trained ALIGNN model.
 
-To perform fine-tuning based transfer learning please refer to [`FineTuning`](./FineTuning) and to perform feature extraction please refer to [`FeatureExtraction`](./FeatureExtraction)
-
 ## Installation Requirements
 
 The basic requirement for using the files are a Python 3.8 with the packages listed in `setup.py`. It is advisable to create an virtual environment with the correct dependencies. Please refer to the guidelines <a href="https://github.com/usnistgov/alignn">here</a> for installation details
