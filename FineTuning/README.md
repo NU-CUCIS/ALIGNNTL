@@ -10,4 +10,4 @@ The user requires following files in order to start training a model using fine-
 * Configuration file - configuration file with hyperparamters associated with training the model (format: `.json`)
 * Pre-trained model - model trained using ALIGNN using any specific materials property (format: `.zip`)
 
-We have provided the an example of Sturcture files (`POSCAR` files) and Input-Property file (`id_prop.csv`) in [`examples`](../examples)
+We have provided the an example of Sturcture files (`POSCAR` files), Input-Property file (`id_prop.csv`) and Configuration file (`config_example.json`) in [`examples`](../examples). Download the pre-trained model from <a href="https://figshare.com/articles/dataset/ALIGNN_models_on_MP_dataset/17005774?file=31458811">here</a>
