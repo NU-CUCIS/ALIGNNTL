@@ -1,3 +1,3 @@
 # ALIGNNTL: Feature Extraction
 
-This repository contains the code to perform feature extraction using ALIGNN.
+This directory contains information on how to perform feature extraction using ALIGNN.
