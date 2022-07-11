@@ -2,7 +2,7 @@
 
 This directory contains information on how to perform fine-tuning using ALIGNN.
 
-### Instruction
+### Instructions
 
 The user requires following files in order to start training a model using fine-tuning method
 * Sturcture files (format: `POSCAR`, `.cif`, `.xyz` or `.pdb`)
