@@ -1,3 +1,3 @@
-# ALIGNNTL: Feature Extraction
+# ALIGNNTL: Fine-Tuning
 
-This directory contains information on how to perform feature extraction using ALIGNN.
+This directory contains information on how to perform fine-tuning using ALIGNN.
