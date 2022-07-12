@@ -25,4 +25,4 @@ for filename in ../examples/*.vasp; do
     python alignn/pretrained_activation.py --model_name mp_e_form_alignnn --file_format poscar --file_path "$filename" --output_path "../examples/data"
 done
 ```
-The script will convert the structure files into atom (x), bond (y) and angle (z) based features one-by-one (batch-wise conversion has not been implemented yet).  Example: `abc.vasp` will produce `abc_x.csv` (9 atom-based features), `abc_y.csv` (9 bond-based features) and `abc_z.csv` (5 angle-based features).
+The script will convert the structure files into atom (x), bond (y) and angle (z) based features one-by-one (batch-wise conversion has not been implemented yet).  Example: `abc.vasp` will produce `abc_x.csv` (9 atom-based features), `abc_y.csv` (9 bond-based features) and `abc_z.csv` (5 angle-based features). Once you have converted all the structure files in the Input-Property file `id_prop.csv`, run the following Jupyter notebooks to convert the structure-wise features into a dataset:
