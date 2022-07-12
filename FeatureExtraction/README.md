@@ -18,9 +18,10 @@ all_models = {
     ...
     }
 ```
-If the link to the pre-trained model is not provided inside the `all_models` dictionary, place the zip file of the pre-trained model inside the [`alignn`](./alignn) folder. Once the setup for the pre-trained model is done, the feature extraction can be performed by running `create_features.sh` file which contains the follwing code:
+If the link to the pre-trained model is not provided inside the `all_models` dictionary, place the zip file of the pre-trained model inside the [`alignn`](./alignn) folder. Once the setup for the pre-trained model is done, the feature extraction can be performed by running `create_features.sh` script file which contains the follwing code:
 ```
 for filename in ../examples/*.vasp; do
     python alignn/pretrained_activation.py --model_name mp_e_form_alignnn --file_format poscar --file_path "$filename" --output_path "../examples/data"
 done
 ```
+The script will convert the structure files into atom (x), bond (y) and angle (z) based features one-by-one (batch-wise conversion has not been implemented yet). For example, `abc.vasp` will produce `abc_x.csv` (atom-based features), `abc_y.csv` (bond-based features) and `abc_z.csv` (angle-based features).
