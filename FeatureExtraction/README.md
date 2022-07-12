@@ -27,4 +27,8 @@ done
 ```
 The script will convert the structure files into atom (x), bond (y) and angle (z) based features one-by-one (batch-wise conversion has not been implemented yet).  Example: `abc.vasp` will produce `abc_x.csv` (9 atom-based features), `abc_y.csv` (9 bond-based features) and `abc_z.csv` (5 angle-based features). 
 
-Once you have converted all the structure files in the Input-Property file `id_prop.csv` using the script file, run the following Jupyter notebooks to convert the structure-wise features into a dataset:
+Once you have converted all the structure files in the Input-Property file `id_prop.csv` using the script file, run the jupyter notebooks `pre-processing.ipynb` to convert the structure-wise features into a dataset. Pre-processing steps contained within the `pre-processing.ipynb` file is as follows:
+* Attach the appropriate property value and identifier (jid) to each of the extracted features file based on id_prop.csv 
+* Create a seperate file for each of the features (atom, bond, angle) based on the extracted checkpoints
+* Create combined features (in the order of atom, bond and angle) from same (3-1) or different (3-2) checkpoints. Use first 512 features for atom+bond and all features for atom+bon+angle as input for model training.
+* (Optional) Divide each of the files into train, validation and test files based on the json file `ids_train_val_test.json` available in the output directory of the ALIGNN model
