@@ -9,7 +9,7 @@ This repository contains the code for ALIGNN-based transfer learning framework t
 
 ## Installation Requirements
 
-The basic requirement for using the files are a Python 3.8 with the packages listed in `setup.py`. It is advisable to create an virtual environment with the correct dependencies. Please refer to the guidelines <a href="https://github.com/usnistgov/alignn">here</a> for installation details
+The basic requirement for using the files are a Python 3.8 with the packages listed in `setup.py`. It is advisable to create an virtual environment with the correct dependencies. Please refer to the guidelines <a href="https://github.com/usnistgov/alignn">here</a> for installation details.
 
 The work related experiments was performed on Linux Fedora 7.9 Maipo. The code should be able to work on other Operating Systems as well but it has not been tested elsewhere.
 
@@ -17,16 +17,16 @@ The work related experiments was performed on Linux Fedora 7.9 Maipo. The code s
   
 Here is a brief description about the folder content:
 
-* [`FineTuning`](./FineTuning): code to perform fine-tuning based transfer learning
+* [`FineTuning`](./FineTuning): code to perform fine-tuning based transfer learning.
 
-* [`FeatureExtraction`](./FeatureExtraction): code to perform feature extraction
+* [`FeatureExtraction`](./FeatureExtraction): code to perform feature extraction.
 
-* [`example`](./example): example dataset to perform fine-tuning or feature extraction
+* [`example`](./example): example dataset to perform fine-tuning or feature extraction.
 
 ## ALIGNNTL: Fine-Tuning
 
 The user requires following files in order to start training a model using fine-tuning method
-* Sturcture files - contains structure information for a given material (format: `POSCAR`, `.cif`, `.xyz` or `.pdb`) 
+* Sturcture files - contains structure information for a given material (format: `POSCAR`, `.cif`, `.xyz` or `.pdb`)
 * Input-Property file - contains name of the structure file and its corresponding property value (format: `.csv`)
 * Configuration file - configuration file with hyperparamters associated with training the model (format: `.json`)
 * Pre-trained model - model trained using ALIGNN using any specific materials property (format: `.zip`)
