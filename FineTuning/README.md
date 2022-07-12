@@ -20,4 +20,8 @@ all_models = {
     ...
     }
 ```
-If the link to the pre-trained model is not provided inside the `all_models` dictionary, place the zip file of the pre-trained model inside the [`alignn`](./alignn) folder. 
+If the link to the pre-trained model is not provided inside the `all_models` dictionary, place the zip file of the pre-trained model inside the [`alignn`](./alignn) folder. Once the setup for the pre-trained model is done, the model training can be performed as follows:
+```
+python alignn/train_folder.py --root_dir "../examples" --config "../examples/config_example.json" --id_prop_file "id_prop.csv" --output_dir=model
+```
+Make sure that the Input-Property file `--id_prop_file` is placed inside the root directory `--root_dir` where Sturcture files are present.
