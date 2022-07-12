@@ -25,8 +25,6 @@ Here is a brief description about the folder content:
 
 ## ALIGNNTL: Fine-Tuning
 
-### Instructions
-
 The user requires following files in order to start training a model using fine-tuning method
 * Sturcture files - contains structure information for a given material (format: `POSCAR`, `.cif`, `.xyz` or `.pdb`) 
 * Input-Property file - contains name of the structure file and its corresponding property value (format: `.csv`)
@@ -50,8 +48,6 @@ python alignn/train_folder.py --root_dir "../examples" --config "../examples/con
 Make sure that the Input-Property file `--id_prop_file` is placed inside the root directory `--root_dir` where Sturcture files are present.
 
 ## ALIGNNTL: Feature Extraction
-
-### Instructions
 
 The user requires following files in order to perform feature extraction
 * Sturcture files - contains structure information for a given material (format: `POSCAR`, `.cif`, `.xyz` or `.pdb`) 
