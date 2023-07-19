@@ -78,6 +78,12 @@ Once you have converted all the structure files in the Input-Property file `id_p
 * Create combined features (in the order of atom, bond and angle) from same (3-1) or different (3-2) checkpoints. Use first 512 features for atom+bond and all features for atom+bon+angle as input for model training.
 * (Optional) Divide each of the files into train, validation and test files based on the json file `ids_train_val_test.json` available in the output directory of the ALIGNN model
 
+## Using Pre-Trained Model
+All the trained models are available at [Zenodo](https://doi.org/10.5072/zenodo.1222572), and these models can be used to make predictions directly.
+
+To perform prediction using the ALIGNN model, please refer to https://github.com/usnistgov/alignn
+
+To perform prediction using the ElemNet model, please refer to https://github.com/NU-CUCIS/CrossPropertyTL
 
 ## Developer Team
 
@@ -87,15 +93,15 @@ The code was developed by Vishu Gupta from the <a href="http://cucis.ece.northwe
 
 ## Acknowledgements
 
-The open-source implementation of ALIGNN <a href="https://github.com/usnistgov/alignn">here</a> provided significant initial inspiration for the structure of this code-base.
+The open-source implementation of ALIGNN <a href="https://github.com/usnistgov/alignn">here</a> provided significant initial inspiration for the structure of this code base.
 
 ## Disclaimer
 
-The research code shared in this repository is shared without any support or guarantee on its quality. However, please do raise an issue if you find anything wrong and I will try my best to address it.
+The research code shared in this repository is shared without any support or guarantee of its quality. However, please do raise an issue if you find anything wrong, and I will try my best to address it.
 
 email: vishugupta2020@u.northwestern.edu
 
-Copyright (C) 2022, Northwestern University.
+Copyright (C) 2023, Northwestern University.
 
 See COPYRIGHT notice in top-level directory.
 
