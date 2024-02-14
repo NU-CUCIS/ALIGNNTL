@@ -91,6 +91,21 @@ The code was developed by Vishu Gupta from the <a href="http://cucis.ece.northwe
 
 ## Publication
 
+1. Vishu Gupta, Kamal Choudhary,  Brian DeCost, Francesca Tavazza, Carelyn Campbell, Wei-keng Liao, Alok Choudhary, and Ankit Agrawal, “Structure-aware graph neural network based deep transfer learning framework for enhanced predictive analytics on diverse materials datasets,” npj Computational Materials 10.1 (2024): 1. [<a href="https://www.nature.com/articles/s41524-023-01185-3">DOI</a>] [<a href="https://www.nature.com/articles/s41524-023-01185-3.pdf">PDF</a>]
+
+```tex
+@article{gupta2024structure,
+  title={Structure-aware graph neural network based deep transfer learning framework for enhanced predictive analytics on diverse materials datasets},
+  author={Gupta, Vishu and Choudhary, Kamal and DeCost, Brian and Tavazza, Francesca and Campbell, Carelyn and Liao, Wei-keng and Choudhary, Alok and Agrawal, Ankit},
+  journal={npj Computational Materials},
+  volume={10},
+  number={1},
+  pages={1},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+}
+```
+
 ## Acknowledgements
 
 The open-source implementation of ALIGNN <a href="https://github.com/usnistgov/alignn">here</a> provided significant initial inspiration for the structure of this code base.
